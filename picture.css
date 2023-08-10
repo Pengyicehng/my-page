@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    font-size: 0;
+}
+
+/* 标题容器样式 */
+.title-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* 标题样式 */
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff6b6b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#daysCount1 {
+    font-size: 24px;
+    color: #6bb0ff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* 添加恋爱计时器样式 */
+#daysCount {
+    font-size: 24px;
+    color: #f5ff6b;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#daysCount2 {
+    font-size: 24px;
+    color: #6bb0ff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* 图片行样式 */
+.image-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    position: relative; /* 添加相对定位 */
+}
+
+/* 图片容器样式 */
+.image-item {
+    text-align: center;
+    margin: 10px;
+    position: relative; /* 添加相对定位 */
+}
+
+/* 图片样式 */
+.ima {
+    max-width: 250px; /* 设置图片的最大宽度 */
+    height: auto;
+    padding: 18px;
+    background-color: #FFFFFF;
+    transition: transform 0.8s;
+}
+
+/* 图片标题样式 */
+.image-title {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+    position: absolute; /* 添加绝对定位 */
+    top: -30px; /* 调整标题距离图片的距离 */
+    left: 0;
+    right: 0;
+}
+
+
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color:mistyrose;
+    display: table;
+}
+
+#cont{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ima{
+    width: 310px;
+    padding: 18px;
+    margin: 30px;
+    background-color: #FFFFFF;
+    transition: transform 0.8s;
+    -webkit-transform: transform 0.8s;
+}
+
+#a1{
+    transform: rotate(12deg);
+}
+
+#a2{
+    transform: rotate(5deg);
+}
+
+#a3{
+    transform: rotate(-9deg);
+}
+
+#a4{
+    transform: rotate(11deg);
+}
+
+#a5{
+    transform: rotate(-12deg);
+}
+
+#a6{
+    transform: rotate(7deg);
+}
+
+#a7{
+    transform: rotate(-10deg);
+}
+
+#a8{
+    transform: rotate(14deg);
+}
+
+#a9{
+    transform: rotate(-9deg);
+}
+
+#a10{
+    transform: rotate(7deg);
+}
+
+#a11{
+    transform: rotate(-11deg);
+}
+
+#a12{
+    transform: rotate(8deg);
+}
+
+#a13{
+    transform: rotate(-11deg);
+}
+
+#a14{
+    transform: rotate(12deg);
+}
+
+#a15{
+    transform: rotate(-6deg);
+}
+
+#a16{
+    transform: rotate(5deg);
+}
+
+#a17{
+    transform: rotate(-10deg);
+}
+
+#a18{
+    transform: rotate(9deg);
+}
+
+#a19{
+    transform: rotate(-12deg);
+}
+
+#a20{
+    transform: rotate(12deg);
+}
+
+#a21{
+    transform: rotate(-7deg);
+}
+
+#a22{
+    transform: rotate(9deg);
+}
+
+#a23{
+    transform: rotate(-15deg);
+}
+
+#a24{
+    transform: rotate(12deg);
+}
+
+#a25{
+    transform: rotate(-12deg);
+}
+
+#a26{
+    transform: rotate(15deg);
+}
+
+#a27{
+    transform: rotate(-6deg);
+}
+
+#a28{
+    transform: rotate(7deg);
+}
+
+#a29{
+    transform: rotate(-10deg);
+}
+
+#a30{
+    transform: rotate(13deg);
+}
+
+#a31{
+    transform: rotate(-14deg);
+}
+
+#a32{
+    transform: rotate(16deg);
+}
+
+#a33{
+    transform: rotate(-15deg);
+}
+
+#a34{
+    transform: rotate(12deg);
+}
+#a35{
+    transform: rotate(-11deg);
+}
+
+#a36{
+    transform: rotate(13deg);
+}
+
+#a37{
+    transform: rotate(-9deg);
+}
+
+#a39{
+    transform: rotate(11deg);
+}
+
+#a40{
+    transform: rotate(-8deg);
+}
+
+#a41{
+    transform: rotate(6deg);
+}
+
+#a42{
+    transform: rotate(-8deg);
+}
+
+#a43{
+    transform: rotate(9deg);
+}
+
+#a44{
+    transform: rotate(-12deg);
+}
+
+#a45{
+    transform: rotate(9deg);
+}
+
+#a46{
+    transform: rotate(-11deg);
+}
+
+#a47{
+    transform: rotate(11deg);
+}
+
+#a48{
+    transform: rotate(-9deg);
+}
+
+#a49{
+    transform: rotate(11deg);
+}
+
+#a50{
+    transform: rotate(-10deg);
+}
+
+#a51{
+    transform: rotate(5deg);
+}
+
+#a52{
+    transform: rotate(-6deg);
+}
+
+#a53{
+    transform: rotate(12deg);
+}
+
+#a54{
+    transform: rotate(-10deg);
+}
+
+#a55{
+    transform: rotate(9deg);
+}
+
+.ima:hover{
+    transform:scale(1.1)  !important;
+}
