@@ -84,6 +84,9 @@ html,body{
 }
 
 body{
+   background-image: url('file/page2(1).gif');
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color:mistyrose;
     display: table;
 }
